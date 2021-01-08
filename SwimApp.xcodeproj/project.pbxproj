@@ -15,6 +15,9 @@
 		FFF850A625A906910042AA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF850A425A906910042AA46 /* LaunchScreen.storyboard */; };
 		FFF850B125A906910042AA46 /* SwimAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF850B025A906910042AA46 /* SwimAppTests.swift */; };
 		FFF850BC25A906910042AA46 /* SwimAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF850BB25A906910042AA46 /* SwimAppUITests.swift */; };
+		FFF850DC25A920ED0042AA46 /* ViewSetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF850DB25A920ED0042AA46 /* ViewSetTableViewController.swift */; };
+		FFF850E225A922370042AA46 /* Swimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF850E125A922370042AA46 /* Swimmer.swift */; };
+		FFF850E725A9235E0042AA46 /* TrainingSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF850E625A9235E0042AA46 /* TrainingSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FFF850B725A906910042AA46 /* SwimAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF850BB25A906910042AA46 /* SwimAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimAppUITests.swift; sourceTree = "<group>"; };
 		FFF850BD25A906910042AA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF850DB25A920ED0042AA46 /* ViewSetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSetTableViewController.swift; sourceTree = "<group>"; };
+		FFF850E125A922370042AA46 /* Swimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swimmer.swift; sourceTree = "<group>"; };
+		FFF850E625A9235E0042AA46 /* TrainingSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				FFF8509925A9068D0042AA46 /* AppDelegate.swift */,
+				FFF850E025A9210B0042AA46 /* Model */,
 				FFF8509B25A9068D0042AA46 /* SceneDelegate.swift */,
 				FFF8509D25A9068D0042AA46 /* ViewController.swift */,
+				FFF850DA25A920A30042AA46 /* View Controllers */,
 				FFF8509F25A9068D0042AA46 /* Main.storyboard */,
 				FFF850A225A906910042AA46 /* Assets.xcassets */,
 				FFF850A425A906910042AA46 /* LaunchScreen.storyboard */,
@@ -126,6 +134,23 @@
 				FFF850BD25A906910042AA46 /* Info.plist */,
 			);
 			path = SwimAppUITests;
+			sourceTree = "<group>";
+		};
+		FFF850DA25A920A30042AA46 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFF850DB25A920ED0042AA46 /* ViewSetTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FFF850E025A9210B0042AA46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFF850E125A922370042AA46 /* Swimmer.swift */,
+				FFF850E625A9235E0042AA46 /* TrainingSet.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF850E725A9235E0042AA46 /* TrainingSet.swift in Sources */,
 				FFF8509E25A9068D0042AA46 /* ViewController.swift in Sources */,
 				FFF8509A25A9068D0042AA46 /* AppDelegate.swift in Sources */,
+				FFF850E225A922370042AA46 /* Swimmer.swift in Sources */,
+				FFF850DC25A920ED0042AA46 /* ViewSetTableViewController.swift in Sources */,
 				FFF8509C25A9068D0042AA46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
