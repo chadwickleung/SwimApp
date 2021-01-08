@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFF8509A25A9068D0042AA46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8509925A9068D0042AA46 /* AppDelegate.swift */; };
+		FFF8509C25A9068D0042AA46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8509B25A9068D0042AA46 /* SceneDelegate.swift */; };
+		FFF8509E25A9068D0042AA46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8509D25A9068D0042AA46 /* ViewController.swift */; };
+		FFF850A125A9068D0042AA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF8509F25A9068D0042AA46 /* Main.storyboard */; };
+		FFF850A325A906910042AA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF850A225A906910042AA46 /* Assets.xcassets */; };
+		FFF850A625A906910042AA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF850A425A906910042AA46 /* LaunchScreen.storyboard */; };
+		FFF850B125A906910042AA46 /* SwimAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF850B025A906910042AA46 /* SwimAppTests.swift */; };
+		FFF850BC25A906910042AA46 /* SwimAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF850BB25A906910042AA46 /* SwimAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF850AD25A906910042AA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF8508E25A9068D0042AA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF8509525A9068D0042AA46;
+			remoteInfo = SwimApp;
+		};
+		FFF850B825A906910042AA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF8508E25A9068D0042AA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF8509525A9068D0042AA46;
+			remoteInfo = SwimApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFF8509625A9068D0042AA46 /* SwimApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF8509925A9068D0042AA46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFF8509B25A9068D0042AA46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFF8509D25A9068D0042AA46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFF850A025A9068D0042AA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF850A225A906910042AA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF850A525A906910042AA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFF850A725A906910042AA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF850AC25A906910042AA46 /* SwimAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF850B025A906910042AA46 /* SwimAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimAppTests.swift; sourceTree = "<group>"; };
+		FFF850B225A906910042AA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF850B725A906910042AA46 /* SwimAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF850BB25A906910042AA46 /* SwimAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimAppUITests.swift; sourceTree = "<group>"; };
+		FFF850BD25A906910042AA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF8509325A9068D0042AA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF850A925A906910042AA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF850B425A906910042AA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF8508D25A9068D0042AA46 = {
+			isa = PBXGroup;
+			children = (
+				FFF8509825A9068D0042AA46 /* SwimApp */,
+				FFF850AF25A906910042AA46 /* SwimAppTests */,
+				FFF850BA25A906910042AA46 /* SwimAppUITests */,
+				FFF8509725A9068D0042AA46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF8509725A9068D0042AA46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF8509625A9068D0042AA46 /* SwimApp.app */,
+				FFF850AC25A906910042AA46 /* SwimAppTests.xctest */,
+				FFF850B725A906910042AA46 /* SwimAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF8509825A9068D0042AA46 /* SwimApp */ = {
+			isa = PBXGroup;
+			children = (
+				FFF8509925A9068D0042AA46 /* AppDelegate.swift */,
+				FFF8509B25A9068D0042AA46 /* SceneDelegate.swift */,
+				FFF8509D25A9068D0042AA46 /* ViewController.swift */,
+				FFF8509F25A9068D0042AA46 /* Main.storyboard */,
+				FFF850A225A906910042AA46 /* Assets.xcassets */,
+				FFF850A425A906910042AA46 /* LaunchScreen.storyboard */,
+				FFF850A725A906910042AA46 /* Info.plist */,
+			);
+			path = SwimApp;
+			sourceTree = "<group>";
+		};
+		FFF850AF25A906910042AA46 /* SwimAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF850B025A906910042AA46 /* SwimAppTests.swift */,
+				FFF850B225A906910042AA46 /* Info.plist */,
+			);
+			path = SwimAppTests;
+			sourceTree = "<group>";
+		};
+		FFF850BA25A906910042AA46 /* SwimAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF850BB25A906910042AA46 /* SwimAppUITests.swift */,
+				FFF850BD25A906910042AA46 /* Info.plist */,
+			);
+			path = SwimAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF8509525A9068D0042AA46 /* SwimApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF850C025A906910042AA46 /* Build configuration list for PBXNativeTarget "SwimApp" */;
+			buildPhases = (
+				FFF8509225A9068D0042AA46 /* Sources */,
+				FFF8509325A9068D0042AA46 /* Frameworks */,
+				FFF8509425A9068D0042AA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwimApp;
+			productName = SwimApp;
+			productReference = FFF8509625A9068D0042AA46 /* SwimApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFF850AB25A906910042AA46 /* SwimAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF850C325A906910042AA46 /* Build configuration list for PBXNativeTarget "SwimAppTests" */;
+			buildPhases = (
+				FFF850A825A906910042AA46 /* Sources */,
+				FFF850A925A906910042AA46 /* Frameworks */,
+				FFF850AA25A906910042AA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF850AE25A906910042AA46 /* PBXTargetDependency */,
+			);
+			name = SwimAppTests;
+			productName = SwimAppTests;
+			productReference = FFF850AC25A906910042AA46 /* SwimAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFF850B625A906910042AA46 /* SwimAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF850C625A906910042AA46 /* Build configuration list for PBXNativeTarget "SwimAppUITests" */;
+			buildPhases = (
+				FFF850B325A906910042AA46 /* Sources */,
+				FFF850B425A906910042AA46 /* Frameworks */,
+				FFF850B525A906910042AA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF850B925A906910042AA46 /* PBXTargetDependency */,
+			);
+			name = SwimAppUITests;
+			productName = SwimAppUITests;
+			productReference = FFF850B725A906910042AA46 /* SwimAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF8508E25A9068D0042AA46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					FFF8509525A9068D0042AA46 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					FFF850AB25A906910042AA46 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FFF8509525A9068D0042AA46;
+					};
+					FFF850B625A906910042AA46 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FFF8509525A9068D0042AA46;
+					};
+				};
+			};
+			buildConfigurationList = FFF8509125A9068D0042AA46 /* Build configuration list for PBXProject "SwimApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF8508D25A9068D0042AA46;
+			productRefGroup = FFF8509725A9068D0042AA46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF8509525A9068D0042AA46 /* SwimApp */,
+				FFF850AB25A906910042AA46 /* SwimAppTests */,
+				FFF850B625A906910042AA46 /* SwimAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF8509425A9068D0042AA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF850A625A906910042AA46 /* LaunchScreen.storyboard in Resources */,
+				FFF850A325A906910042AA46 /* Assets.xcassets in Resources */,
+				FFF850A125A9068D0042AA46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF850AA25A906910042AA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF850B525A906910042AA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF8509225A9068D0042AA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF8509E25A9068D0042AA46 /* ViewController.swift in Sources */,
+				FFF8509A25A9068D0042AA46 /* AppDelegate.swift in Sources */,
+				FFF8509C25A9068D0042AA46 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF850A825A906910042AA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF850B125A906910042AA46 /* SwimAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF850B325A906910042AA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF850BC25A906910042AA46 /* SwimAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF850AE25A906910042AA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF8509525A9068D0042AA46 /* SwimApp */;
+			targetProxy = FFF850AD25A906910042AA46 /* PBXContainerItemProxy */;
+		};
+		FFF850B925A906910042AA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF8509525A9068D0042AA46 /* SwimApp */;
+			targetProxy = FFF850B825A906910042AA46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFF8509F25A9068D0042AA46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF850A025A9068D0042AA46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF850A425A906910042AA46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF850A525A906910042AA46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF850BE25A906910042AA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFF850BF25A906910042AA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF850C125A906910042AA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN3Y2J6785;
+				INFOPLIST_FILE = SwimApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chadwickleung.SwimApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFF850C225A906910042AA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN3Y2J6785;
+				INFOPLIST_FILE = SwimApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chadwickleung.SwimApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFF850C425A906910042AA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN3Y2J6785;
+				INFOPLIST_FILE = SwimAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chadwickleung.SwimApp.SwimAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimApp.app/SwimApp";
+			};
+			name = Debug;
+		};
+		FFF850C525A906910042AA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN3Y2J6785;
+				INFOPLIST_FILE = SwimAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chadwickleung.SwimApp.SwimAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimApp.app/SwimApp";
+			};
+			name = Release;
+		};
+		FFF850C725A906910042AA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN3Y2J6785;
+				INFOPLIST_FILE = SwimAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chadwickleung.SwimApp.SwimAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwimApp;
+			};
+			name = Debug;
+		};
+		FFF850C825A906910042AA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN3Y2J6785;
+				INFOPLIST_FILE = SwimAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chadwickleung.SwimApp.SwimAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwimApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF8509125A9068D0042AA46 /* Build configuration list for PBXProject "SwimApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF850BE25A906910042AA46 /* Debug */,
+				FFF850BF25A906910042AA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF850C025A906910042AA46 /* Build configuration list for PBXNativeTarget "SwimApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF850C125A906910042AA46 /* Debug */,
+				FFF850C225A906910042AA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF850C325A906910042AA46 /* Build configuration list for PBXNativeTarget "SwimAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF850C425A906910042AA46 /* Debug */,
+				FFF850C525A906910042AA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF850C625A906910042AA46 /* Build configuration list for PBXNativeTarget "SwimAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF850C725A906910042AA46 /* Debug */,
+				FFF850C825A906910042AA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF8508E25A9068D0042AA46 /* Project object */;
+}
