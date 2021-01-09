@@ -23,4 +23,12 @@ class Swimmer {
         _year = year
         _trainingRecord = nil
     }
+    
+    func saveTrainingRecord(setID: Int, record: [Float]) {
+        _trainingRecord = [setID: record]
+    }
+    
+    func showTrainingRecord(setID: Int) -> [Float] {
+        return _trainingRecord![setID]!
+    }
 }

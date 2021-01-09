@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 var appData = SwimSetData()
 
 struct SetEntry {
@@ -50,6 +49,13 @@ class SwimSetData {
         let setEntry1 = SetEntry(label: "1st", description: "fast")
         let setEntry2 = SetEntry(label: "2nd", description: "smooth")
         _viewSet = [setEntry1, setEntry2]
+        
+        var swimmer1: Swimmer = Swimmer(name: "Chadwick", gender: "M", dateOfBirth: "12/23/1997", year: 1)
+        var swimmer2: Swimmer = Swimmer(name: "Kaley", gender: "F", dateOfBirth: "1/1/2001", year: 1)
+        
+        self.addTrainingSet(set: set1)
+        self.addTrainingSet(set: set2)
+        swimmer1.saveTrainingRecord(setID: set1.id, record: [25.4, 25.6, 25.3])
     }
     
     func addTrainingSet(set: TrainingSet) {
@@ -63,5 +69,4 @@ class SwimSetData {
     
     
 }
-
 
