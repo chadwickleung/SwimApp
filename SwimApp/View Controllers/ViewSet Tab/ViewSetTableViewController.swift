@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewSetTableViewController: UITableViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewSetTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +28,7 @@ class ViewSetTableViewController: UITableViewController, UITableViewDelegate, UI
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return appData.trainingSets.count
+        return appData._viewSet.count
     }
 
     /*
