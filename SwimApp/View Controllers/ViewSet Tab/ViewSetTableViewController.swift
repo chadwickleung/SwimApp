@@ -33,7 +33,7 @@ class ViewSetTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "setViewCell", for: indexPath) {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "set:ViewCell", for: indexPath) {
             cell.SetLabel = appData._viewSet[indexPath.row].SetLabel
             cell.SetDescription = appData._viewSet[indexPath.row].SetDescription
             return cell
