@@ -7,7 +7,17 @@
 
 import Foundation
 
+
+var appData = SwimSetData()
+
+struct SetEntry {
+    var label : String
+    var description : String
+}
+
 // This structure holds the information of the training set
+
+
 struct TrainingSet {
     // Format: SET * (REP * DISTANCE)
     var distance: Int
@@ -23,16 +33,15 @@ struct TrainingSet {
 
 
 // This structure holds all the training sets in the swim set
-class SwimSet {
-    var trainingSets: [TrainingSet]
+class SwimSetData {
+    var trainingSets: [SetEntry]
     
     init() {
         self.trainingSets = []
+        // add some dummies
     }
     
-    func addTrainingSet(set: TrainingSet) {
-        trainingSets.append(set)
-    }
+    
     
 }
-\
+

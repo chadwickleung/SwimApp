@@ -84,11 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DFAFF68225A92BD000163ACC /* Calendar Tab */ = {
+		DFAFF68225A92BD000163ACC /* ViewSet Tab */ = {
 			isa = PBXGroup;
 			children = (
+				DFAFF68625A92E8F00163ACC /* ViewSetTableViewCell.swift */,
+				FFF850DB25A920ED0042AA46 /* ViewSetTableViewController.swift */,
 			);
-			path = "Calendar Tab";
+			path = "ViewSet Tab";
 			sourceTree = "<group>";
 		};
 		FFF8508D25A9068D0042AA46 = {
@@ -148,9 +150,7 @@
 		FFF850DA25A920A30042AA46 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DFAFF68225A92BD000163ACC /* Calendar Tab */,
-				FFF850DB25A920ED0042AA46 /* ViewSetTableViewController.swift */,
-				DFAFF68625A92E8F00163ACC /* ViewSetTableViewCell.swift */,
+				DFAFF68225A92BD000163ACC /* ViewSet Tab */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
