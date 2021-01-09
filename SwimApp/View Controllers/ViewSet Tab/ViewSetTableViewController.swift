@@ -8,7 +8,8 @@
 import UIKit
 
 class ViewSetTableViewController: UITableViewController {
-
+    @IBOutlet var ViewSetTable: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,7 +24,8 @@ class ViewSetTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
+        
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -33,9 +35,9 @@ class ViewSetTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "set:ViewCell", for: indexPath) {
-            cell.SetLabel = appData._viewSet[indexPath.row].SetLabel
-            cell.SetDescription = appData._viewSet[indexPath.row].SetDescription
+        if let cell = ViewSetTable.dequeueReusableCell(withIdentifier: "setViewCell", for: indexPath) as? ViewSetTableViewCell {
+            cell.SetLabel.text = appData._viewSet[indexPath.row].label
+            cell.SetDescription.text = appData._viewSet[indexPath.row].description
             return cell
         } else {
             return UITableViewCell()
