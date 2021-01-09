@@ -31,15 +31,18 @@ class ViewSetTableViewController: UITableViewController, UITableViewDelegate, UI
         return appData.trainingSets.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
-        return cell
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "setViewCell", for: indexPath) {
+            cell.SetLabel = appData._viewSet[indexPath.row].SetLabel
+            cell.SetDescription = appData._viewSet[indexPath.row].SetDescription
+            return cell
+        } else {
+            return UITableViewCell()
+        }
+        
     }
-    */
+
 
     /*
     // Override to support conditional editing of the table view.
