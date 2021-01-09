@@ -70,6 +70,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <accessibility key="accessibilityConfiguration" identifier="SetViewCell"/>
                                 <connections>
                                     <outlet property="SetDescription" destination="wCR-Tc-6dr" id="nf6-qx-oth"/>
                                     <outlet property="SetLabel" destination="Jme-4D-gGC" id="k5N-CN-dcB"/>
