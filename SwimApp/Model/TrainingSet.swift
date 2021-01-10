@@ -38,7 +38,7 @@ struct TrainingSet {
 class SwimSetData {
     var _trainingSets: [TrainingSet]
     var _participants: [Swimmer]
-    var _viewSet : [SetEntry]
+    //var _viewSet : [SetEntry]
     
     init() {
         let set1: TrainingSet = TrainingSet(distance: 50, rep: 8, set: 8, stroke: "Free", description: "Sprint all the way", id: 1, label: "set 1")
@@ -51,7 +51,7 @@ class SwimSetData {
 //        let setEntry1 = SetEntry(label: "1st", description: "fast")
 //        let setEntry2 = SetEntry(label: "2nd", description: "smooth")
 //        _viewSet = [setEntry1, setEntry2]
-//        
+//
         var swimmer1: Swimmer = Swimmer(name: "Chadwick", gender: "M", dateOfBirth: "12/23/1997", year: 1)
         var swimmer2: Swimmer = Swimmer(name: "Kaley", gender: "F", dateOfBirth: "1/1/2001", year: 1)
         
