@@ -10,6 +10,7 @@ import UIKit
 class ViewSetTableViewController: UITableViewController {
     @IBOutlet var ViewSetTable: UITableView!
     
+    var selectedSet : SetEntry
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -30,14 +31,14 @@ class ViewSetTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return appData._viewSet.count
+        return appData._trainingSets.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = ViewSetTable.dequeueReusableCell(withIdentifier: "setViewCell", for: indexPath) as? ViewSetTableViewCell {
-            cell.SetLabel.text = appData._viewSet[indexPath.row].label
-            cell.SetDescription.text = appData._viewSet[indexPath.row].description
+            cell.SetLabel.text = appData._trainingSets[indexPath.row].label
+            cell.SetDescription.text = appData._trainingSets[indexPath.row].description
             return cell
         } else {
             return UITableViewCell()
@@ -80,15 +81,22 @@ class ViewSetTableViewController: UITableViewController {
         return true
     }
     */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+//
+//    override func tableView( _ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        selectedSet =  appData._viewSet[indexPath.row]
+//
+//    }
+//
+//    // MARK: - Navigation
+//
+//    // In a storyboard-based application, you will often want to do a little preparation before navigation
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        // Get the new view controller using segue.destination.
+//        // Pass the selected object to the new view controller.
+//        if let dest = segue.destination as? SetDetailViewController {
+//
+//        }
+//    }
+    
 
 }

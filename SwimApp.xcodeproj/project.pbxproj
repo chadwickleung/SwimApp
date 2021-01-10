@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF96A0A125ABB99300CEBB27 /* SetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF96A0A025ABB99300CEBB27 /* SetDetailViewController.swift */; };
 		DFAFF68725A92E8F00163ACC /* ViewSetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFF68625A92E8F00163ACC /* ViewSetTableViewCell.swift */; };
 		FFF8509A25A9068D0042AA46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8509925A9068D0042AA46 /* AppDelegate.swift */; };
 		FFF8509C25A9068D0042AA46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8509B25A9068D0042AA46 /* SceneDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF96A0A025ABB99300CEBB27 /* SetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDetailViewController.swift; sourceTree = "<group>"; };
 		DFAFF68625A92E8F00163ACC /* ViewSetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSetTableViewCell.swift; sourceTree = "<group>"; };
 		FFF8509625A9068D0042AA46 /* SwimApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF8509925A9068D0042AA46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				DFAFF68625A92E8F00163ACC /* ViewSetTableViewCell.swift */,
 				FFF850DB25A920ED0042AA46 /* ViewSetTableViewController.swift */,
+				DF96A0A025ABB99300CEBB27 /* SetDetailViewController.swift */,
 			);
 			path = "ViewSet Tab";
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				FFF8509A25A9068D0042AA46 /* AppDelegate.swift in Sources */,
 				FFF850E225A922370042AA46 /* Swimmer.swift in Sources */,
 				FFF850DC25A920ED0042AA46 /* ViewSetTableViewController.swift in Sources */,
+				DF96A0A125ABB99300CEBB27 /* SetDetailViewController.swift in Sources */,
 				FFF8509C25A9068D0042AA46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
