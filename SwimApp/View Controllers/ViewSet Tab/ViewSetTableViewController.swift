@@ -10,7 +10,7 @@ import UIKit
 class ViewSetTableViewController: UITableViewController {
     @IBOutlet var ViewSetTable: UITableView!
     
-    var selectedSet : SetEntry
+    //var selectedSet : SetEntry
     override func viewDidLoad() {
         super.viewDidLoad()
 
